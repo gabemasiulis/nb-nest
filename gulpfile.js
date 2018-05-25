@@ -70,7 +70,13 @@ gulp.task('sass-prod', ()=>{
         .pipe(sass({outputStyle: 'compressed'}))
         .pipe(autoprefixer(autoprefixerOptions))
         .pipe(gulp.dest(cssOut));
-})
-gulp.task('prod', ()=>{
-    gulp.parallel('scripts','sass-prod');
 });
+gulp.task('resources-prod', gulp.parallel('scripts','sass-prod'));
+
+gulp.task('zip', () => {
+    return gulp
+        .src(['./*', '!./node_modules/', '!./nb-nest.zip', '!./.git/'])
+        .pipe(zip('./nb-nest.zip'))
+        .pipe(gulp.dest('./'));
+});
+gulp.task('prod', gulp.series('resources-prod', 'zip'));
