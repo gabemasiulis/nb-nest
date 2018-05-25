@@ -1,0 +1,29 @@
+{
+  "name": "nb-nest",
+  "version": "1.0.0",
+  "description": "Zendesk \"Nest\" Helpcenter theme forked from https://github.com/zendesklabs/themes and customized for Northern Brewer",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabemasiulis/nb-nest.git"
+  },
+  "author": "Gabe Masiulis",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gabemasiulis/nb-nest/issues"
+  },
+  "homepage": "https://github.com/gabemasiulis/nb-nest#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-zip": "^4.1.0"
+  }
+}
