@@ -75,7 +75,7 @@ gulp.task('resources-prod', gulp.parallel('scripts','sass-prod'));
 
 gulp.task('zip', () => {
     return gulp
-        .src(['./*', '!./node_modules/', '!./nb-nest.zip', '!./.git/'])
+        .src(['./**/*', '!./node_modules/**/*', '!./nb-nest.zip', '!./.git/**/*'])
         .pipe(zip('./nb-nest.zip'))
         .pipe(gulp.dest('./'));
 });
