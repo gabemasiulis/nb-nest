@@ -13,7 +13,7 @@ const concat = require('gulp-concat');
 const zip = require('gulp-zip');
 
 const sassIn = './scss/*scss';
-const cssOut = './style.css';
+const cssOut = './';
 
 const sassOptions = {
     errLogToConsole: true,
@@ -48,8 +48,14 @@ gulp.task('sass', () =>{
         .pipe(autoprefixer(autoprefixerOptions))
         .pipe(gulp.dest(cssOut));
 });
+gulp.task('concat-styles', () => {
+    return gulp
+        .src(['./base.css', './app.css'])
+        .pipe(concat('style.css'))
+        .pipe(gulp.dest('./'));
+});
 gulp.task('watch', () => {
-    gulp.watch(sassIn, gulp.series('sass'))
+    gulp.watch(sassIn, gulp.series('sass', 'concat-styles'))
         .on('change', (event) =>{
             console.log('Sass file' + event.path + ' was ' + event.type + ', running tasks...');
         });
