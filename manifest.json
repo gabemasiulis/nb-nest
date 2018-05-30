@@ -6,6 +6,179 @@
   "default_locale": "en-us",
   "settings": [
     {
+      "label": "nav_group_label",
+      "variables": [
+        {
+          "identifier": "nav_text_1",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_1_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_1",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_1_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_text_2",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_2_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_2",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_2_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_text_3",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_3_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_3",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_3_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_text_4",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_4_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_4",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_4_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_text_5",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_5_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_5",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_5_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_text_6",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_6_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_6",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_6_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_text_7",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_7_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_7",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_7_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_text_8",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_8_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_8",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_8_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_text_9",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_9_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_9",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_9_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_text_10",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_10_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_10",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_10_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_text_11",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_11_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_11",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_11_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_text_12",
+          "type": "text",
+          "description": "nav_text_description",
+          "label": "nav_text_12_label",
+          "value": " "
+        },
+        {
+          "identifier": "nav_url_12",
+          "type": "text",
+          "description": "nav_url_description",
+          "label": "nav_url_12_label",
+          "value": " "
+        }
+      ]
+    },
+    {
       "label": "colors_group_label",
       "variables": [
         {
