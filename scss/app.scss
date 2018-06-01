@@ -3,3 +3,27 @@
 * Add on styles by Northern Brewer
 *
 **/
+@media (min-width: 1024px){
+    .category-container {
+        flex-direction: row;
+    }
+    .category-nav {
+        flex: 0 0 20%;
+        margin-top: .5em;
+    }
+}
+@media (max-width: 1024px){
+    .category-container {
+        flex-direction: column-reverse;
+    }
+    .category-nav {
+        a {
+            border: solid #cd0e2c 2px;
+            border-radius: 1.2em;
+            width: 100%;
+            text-align: center;
+            display: block;
+            padding: .5em 0;
+        }
+    }
+}

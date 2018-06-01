@@ -4040,10 +4040,4 @@ ul {
   margin: 0 5px;
 }
 
-/**
-*
-* Add on styles by Northern Brewer
-*
-**/
-
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmNzcyIsInNvdXJjZXMiOlsiYXBwLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4qXG4qIEFkZCBvbiBzdHlsZXMgYnkgTm9ydGhlcm4gQnJld2VyXG4qXG4qKi9cbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7OztHQUlHIn0= */
+@media (min-width: 1024px){.category-container{-webkit-flex-direction:row;flex-direction:row}.category-nav{-webkit-flex:0 0 20%;flex:0 0 20%;margin-top:.5em}}@media (max-width: 1024px){.category-container{-webkit-flex-direction:column-reverse;flex-direction:column-reverse}.category-nav a{border:solid #cd0e2c 2px;border-radius:1.2em;width:100%;text-align:center;display:block;padding:.5em 0}}
