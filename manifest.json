@@ -13,28 +13,28 @@
           "type": "text",
           "description": "nav_text_description",
           "label": "nav_text_1_label",
-          "value": " "
+          "value": "foo"
         },
         {
           "identifier": "nav_url_1",
           "type": "text",
           "description": "nav_url_description",
           "label": "nav_url_1_label",
-          "value": " "
+          "value": "bar"
         },
         {
           "identifier": "nav_text_2",
           "type": "text",
           "description": "nav_text_description",
           "label": "nav_text_2_label",
-          "value": " "
+          "value": "baz"
         },
         {
           "identifier": "nav_url_2",
           "type": "text",
           "description": "nav_url_description",
           "label": "nav_url_2_label",
-          "value": " "
+          "value": "qux"
         },
         {
           "identifier": "nav_text_3",
@@ -207,7 +207,7 @@
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "rgba(0, 90, 14, 1)"
+          "value": "#CD0E2B"
         },
         {
           "identifier": "background_color",
