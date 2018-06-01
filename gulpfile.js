@@ -79,4 +79,4 @@ gulp.task('zip', () => {
         .pipe(zip('./nb-nest.zip'))
         .pipe(gulp.dest('./'));
 });
-gulp.task('prod', gulp.series('resources-prod', 'zip'));
+gulp.task('prod', gulp.series('resources-prod', 'concat-styles', 'zip'));
